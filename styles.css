@@ -1,0 +1,58 @@
+/* Type */
+main {
+	transform: skewX(-25deg);
+	height: 100vh;
+}
+
+div.a {
+  width: 150px;
+  height: 10px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+  transform: rotate(20deg);
+}
+
+div.b {
+  width: 1000px;
+  height: 50px;
+  background-color: lightgreen;
+  -ms-transform: skewY(20deg); /* IE 9 */
+  -webkit-transform: skewY(20deg); /* Safari 3-8 */
+  transform: skewX(-60deg);
+    z-index: 1;
+     text-shadow: 109px 3px black;
+    filter: blur(23px);
+    z-index: 2
+}
+
+div.c {
+  width: 170px;
+  height: 90px;
+  background-color:pink;
+  -ms-transform: scaleY(1.5); /* IE 9 */
+  -webkit-transform: scaleY(1.5); /* Safari 3-8 */
+  transform: scaleY(1.5);
+}
+body {
+	background-color: gray;
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	line-height: 1;
+    font-size: 5em;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+}
+.new-color {
+	color: orangered;
+}
+.other-font {
+	font-family: cursive;
+}
+
+diffrent {
+
+}
